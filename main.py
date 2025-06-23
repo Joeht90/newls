@@ -1,6 +1,7 @@
 import os
+import subprocess
 
-current_directory = os.getcwd()
+
 dir_list = os.listdir()
 
 
@@ -14,4 +15,6 @@ def num_assign(list):
 
 def move_into_dir(choice):
 
-print(num_assign(dir_list))
+# print(num_assign(dir_list))
+# dir = input("")
+subprocess.run('ls')
